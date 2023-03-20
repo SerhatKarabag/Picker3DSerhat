@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7817269971734982969
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fec94e1e8b97498dbe0921a309e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPackType: 0
+--- !u!114 &-7729048408761151627
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0909e2f590564aa516a7ef6dcfdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Threshold: 40
+--- !u!114 &-7438265756766233288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc430bad05116c04a91d227178363322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6916137493439022556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0909e2f590564aa516a7ef6dcfdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Threshold: 34
+--- !u!114 &-2546856469265815444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fec94e1e8b97498dbe0921a309e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPackType: 2
+--- !u!114 &-1458987511516074044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fec94e1e8b97498dbe0921a309e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPackType: 2
+--- !u!114 &-1099206918153871428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0909e2f590564aa516a7ef6dcfdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Threshold: 24
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb7e0f4e3e24104da1102e8d49fe05c, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  LevelNumber: 7
+  PlatformLenght: 9
+  AvailablePlatformTypes: 
+  Tiles:
+  - {fileID: 5852880873306607814}
+  - {fileID: -1099206918153871428}
+  - {fileID: -7817269971734982969}
+  - {fileID: 6380238419289856833}
+  - {fileID: -1458987511516074044}
+  - {fileID: -6916137493439022556}
+  - {fileID: -2546856469265815444}
+  - {fileID: -7729048408761151627}
+  - {fileID: -7438265756766233288}
+--- !u!114 &5852880873306607814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fec94e1e8b97498dbe0921a309e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPackType: 1
+--- !u!114 &6380238419289856833
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0909e2f590564aa516a7ef6dcfdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Threshold: 10

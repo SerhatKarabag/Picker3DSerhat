@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6562008152375873808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc430bad05116c04a91d227178363322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3060744807697679198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0909e2f590564aa516a7ef6dcfdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Threshold: 15
+--- !u!114 &-2688905831757977064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0909e2f590564aa516a7ef6dcfdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Threshold: 12
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb7e0f4e3e24104da1102e8d49fe05c, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  LevelNumber: 4
+  PlatformLenght: 7
+  AvailablePlatformTypes: 
+  Tiles:
+  - {fileID: 66055507668823431}
+  - {fileID: 2308643981338641244}
+  - {fileID: 4591151753975747263}
+  - {fileID: -3060744807697679198}
+  - {fileID: 3324562613723630351}
+  - {fileID: -2688905831757977064}
+  - {fileID: -6562008152375873808}
+--- !u!114 &66055507668823431
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fec94e1e8b97498dbe0921a309e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPackType: 2
+--- !u!114 &2308643981338641244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0909e2f590564aa516a7ef6dcfdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Threshold: 10
+--- !u!114 &3324562613723630351
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fec94e1e8b97498dbe0921a309e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPackType: 0
+--- !u!114 &4591151753975747263
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fec94e1e8b97498dbe0921a309e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPackType: 1
